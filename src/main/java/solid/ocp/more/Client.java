@@ -7,8 +7,7 @@ import java.util.List;
 
 public class Client {
 
-    @Test
-    public void execute() throws Exception {
+    public static void main(String[] args) {
         List<SortableShape> list = new ArrayList<>();
         list.add(new Circle());
         list.add(new Rectangle());
